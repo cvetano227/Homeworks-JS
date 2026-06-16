@@ -5,8 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Game</title>
     <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Heading 1</h1>
+    <h1>Player vs Enemy</h1>
+    <div class="player-stats">
+      <div id="player-info"></div>
+      <div id="enemy-info"></div>
+    </div>
+
+    <button id="attack-btn">Attack Enemy</button>
+    <button id="enemy-attack-btn">Enemy Attack</button>
+    <button id="levelup-btn">Level Up</button>
+    <button id="restart-btn">Restart Game</button>
+
+    <h3>Game Log</h3>
+    <div id="log"></div>
   </body>
 </html>
